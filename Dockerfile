@@ -1,4 +1,4 @@
-FROM debian
+FROM emsi/deep-learning:gpu-py3-TF-1.10
 
 RUN apt-get update && apt-get install --no-install-recommends -y \
   python python-dev python-setuptools python-pip \
