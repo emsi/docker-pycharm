@@ -10,5 +10,5 @@ nvidia-docker run -d  -e DISPLAY --device=/dev/dri \
 -v ~/.PyCharm.java:/home/developer/.java \
 -v ~/.PyCharm.java:/home/developer/.ssh \
 -v /tmp/.X11-unix:/tmp/.X11-unix \
---name pycharm-2018.2.3-tf -p5000:5000 emsi/pycharm:2018.2.3-gpu-TF-1.10
+--name pycharm-2018.2.3 -p5000:5000 emsi/pycharm:2018.2.3
 ```
