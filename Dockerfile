@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
 RUN mkdir /opt/pycharm
 WORKDIR /opt/pycharm
 
-ARG pycharm_source=https://download-cf.jetbrains.com/python/pycharm-professional-2018.2.3.tar.gz
+ARG pycharm_source=https://download-cf.jetbrains.com/python/pycharm-professional-2018.2.5.tar.gz
 ADD $pycharm_source /opt/pycharm/installer.tgz
 
 RUN tar --strip-components=1 -xzf installer.tgz && rm installer.tgz

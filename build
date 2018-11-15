@@ -1,1 +1,1 @@
-docker build --rm=true -t emsi/pycharm:2018.2.3-gpu-TF-1.10 .
+docker build --rm=true -t emsi/pycharm:2018.2.5-gpu-TF-1.10 .
